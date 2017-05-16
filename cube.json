@@ -1,0 +1,52 @@
+{
+    "led": {
+        "typename": "cube",
+        "x": 10,
+        "z": 10,
+        "y": 10
+    },
+    "driver": {
+        "typename": "simpixel",
+        "num": 1000
+    },
+    "animation": {
+        "typename": "sequence",
+        "animations": [
+            {
+                "typename": "BiblioPixelAnimations.cube.wave_spiral.WaveSpiral",
+                "offset": 30,
+                "dir": false,
+                "run": {
+                    "fps": 20,
+                    "amt": 2,
+                    "seconds": 8
+                }
+            },
+            {
+                "typename": "BiblioPixelAnimations.cube.simplex.Simplex",
+                "freq": 16,
+                "run": {
+                    "fps": 10,
+                    "amt": 1,
+                    "seconds": 8
+                }
+            },
+            {
+                "typename": "BiblioPixelAnimations.cube.Rain.RainBow",
+                "run": {
+                    "fps": 10,
+                    "amt": 1,
+                    "seconds": 8
+                }
+            },
+            {
+                "typename": "BiblioPixelAnimations.cube.bloom.CubeBloom",
+                "run": {
+                    "fps": 20,
+                    "amt": 6,
+                    "seconds": 8
+                }
+            }
+        ]
+    }
+}
