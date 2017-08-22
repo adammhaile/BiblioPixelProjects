@@ -1,0 +1,74 @@
+{
+    "animation": {
+        "title": "Infinity Mirror",
+        "typename": "remote",
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.fill.CircleFillRainbow",
+                    "name": "Fill Rainbow"
+                },
+                "run": {
+                    "fps": 30,
+                    "amt": 3
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.ring_clock.RingClock",
+                    "name": "Clock"
+                },
+                "run": {
+                    "fps": 2
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.bloom.CircleBloom",
+                    "name": "CircleBloom"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.diag.Diag",
+                    "name": "Diag"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.swirl.Swirl",
+                    "name": "Swirl"
+                },
+                "run": {
+                    "fps": 30
+                }
+            }
+        ],
+        "default": null,
+        "bgcolor": "black",
+        "external_access": true,
+        "port": 5000
+    },
+    "driver": {
+        "typename": "spi",
+        "ledtype": "SK9822",
+        "gamma": "APA102",
+        "c_order": "BGR",
+        "num": 120,
+        "interface": "PERIPHERY",
+        "spi_speed": 24
+    },
+    "layout": {
+        "typename": "circle",
+        "brightness": 64,
+        "pixels_per": [120],
+        "rotation": 180,
+        "reverse_angle": true
+    }
+}

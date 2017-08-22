@@ -1,0 +1,109 @@
+{
+    "animation": {
+        "title": "Infinity Mirror",
+        "typename": "remote",
+        "auto_demo": {
+            "name": "Demo Mode",
+            "random": true,
+            "run": {
+                "seconds": 30
+            },
+            "data": {
+                "bgcolor": "blue"
+            }
+        },
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.fill.CircleFillRainbow",
+                    "name": "Fill Rainbow"
+                },
+                "run": {
+                    "fps": 30,
+                    "amt": 3
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.ring_clock.RingClock",
+                    "name": "Clock"
+                },
+                "run": {
+                    "fps": 2
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.bloom.CircleBloom",
+                    "name": "CircleBloom"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.diag.Diag",
+                    "name": "Diag",
+                    "angle": 3
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.swirl.Swirl",
+                    "name": "Swirl",
+                    "angle": 3
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.Twinkle.Twinkle",
+                    "name": "Twinkle",
+                    "colors": [
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "blue",
+                        "violet"
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.Twinkle.Twinkle",
+                    "name": "Twinkle White",
+                    "colors": [
+                        [255, 255, 255]
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            }
+
+        ],
+        "default": null,
+        "bgcolor": "black",
+        "external_access": true,
+        "port": 5000
+    },
+    "driver": {
+        "typename": "simpixel",
+        "num": 120
+    },
+    "layout": {
+        "typename": "circle",
+        "brightness": 255,
+        "pixels_per": [120]
+    }
+}
