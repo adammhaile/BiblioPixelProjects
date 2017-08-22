@@ -11,6 +11,16 @@
     "animation": {
         "title": "1K Adam",
         "typename": "remote",
+        "auto_demo": {
+            "name": "Demo Mode",
+            "random": true,
+            "run": {
+                "seconds": 30
+            },
+            "data": {
+                "bgcolor": "blue"
+            }
+        },
         "animations": [
             {
                 "animation": {
