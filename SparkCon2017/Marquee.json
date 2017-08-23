@@ -1,0 +1,100 @@
+{
+    "animation": {
+        "title": "Marquee",
+        "typename": "remote",
+        "auto_demo": {
+            "name": "Demo Mode",
+            "random": true,
+            "run": {
+                "seconds": 30
+            },
+            "data": {
+                "bgcolor": "blue"
+            }
+        },
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.Text.ScrollText",
+                    "name": "Scroll",
+                    "text": "Welcome to SPARKCcon 2017!",
+                    "color": "red",
+                    "xPos": 128
+                },
+                "run": {
+                    "fps": 15,
+                    "amt": 1
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.GameOfLife.GameOfLife",
+                    "name": "Game Of Life"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.perlin_simplex.PerlinSimplex",
+                    "name": "Noise"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.Mainframe.Mainframe",
+                    "name": "MainFrame"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.bloom.Bloom",
+                    "name": "Bloom"
+                },
+                "run": {
+                    "fps": 15,
+                    "amt": 6
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.MatrixRain.MatrixRain",
+                    "name": "MatrixRain",
+                    "colors": ["red"]
+                },
+                "run": {
+                    "fps": 15
+                }
+            }
+        ],
+        "default": null,
+        "bgcolor": "black",
+        "external_access": true,
+        "port": 5000
+    },
+    "driver": {
+        "typename": "HTSerial.driver.Serial",
+        "hardwareID": "0403:6001",
+        "baudrate": 1000000,
+        "ledtype": "GENERIC",
+        "num": 1024
+    },
+    "layout": {
+        "typename": "matrix",
+        "rotation": 3,
+        "vert_flip": false,
+        "serpentine": false,
+        "width": 8,
+        "height": 128,
+        "brightness": 128,
+        "threadedUpdate": true
+    },
+    "path": "/home/pi/HT1632_Serial"
+}
