@@ -1,0 +1,146 @@
+{
+    "animation": {
+        "title": "Disc",
+        "typename": "remote",
+        "auto_demo": {
+            "name": "Demo Mode",
+            "random": true,
+            "run": {
+                "seconds": 30
+            },
+            "data": {
+                "bgcolor": "blue"
+            }
+        },
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.bloom.CircleBloom",
+                    "name": "CircleBloom"
+                },
+                "run": {
+                    "fps": 30,
+                    "amt": 4
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.arc_clock.ArcClock",
+                    "name": "ArcClock"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.diag.Diag",
+                    "name": "Diag",
+                    "angle": 3
+                },
+                "run": {
+                    "fps": 30,
+                    "amt": 4
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.hyperspace.HyperspaceRainbow",
+                    "name": "HyperspaceRainbow"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.pinwheel.PinWheel",
+                    "name": "PinWheel",
+                    "colors": [
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "blue",
+                        "violet"
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.swirl.Swirl",
+                    "name": "Swirl",
+                    "angle": 3
+                },
+                "run": {
+                    "fps": 30,
+                    "amt": 4
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.fireflies.FireFlies",
+                    "name": "FireFlies",
+                    "colors": [
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "blue",
+                        "violet"
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.Twinkle.Twinkle",
+                    "name": "Twinkle",
+                    "colors": [
+                        "red",
+                        "orange",
+                        "yellow",
+                        "green",
+                        "blue",
+                        "violet"
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.Twinkle.Twinkle",
+                    "name": "Twinkle White",
+                    "colors": [
+                        [255, 255, 255]
+                    ]
+                },
+                "run": {
+                    "fps": 30
+                }
+            }
+
+        ],
+        "default": null,
+        "bgcolor": "black",
+        "external_access": true,
+        "port": 5000
+    },
+    "driver": {
+        "typename": "simpixel",
+        "num": 255
+    },
+    "layout": {
+        "typename": "circle",
+        "brightness": 255,
+        "pixels_per": [1, 6, 12, 20, 24, 28, 32, 40, 44, 48],
+        "threadedUpdate": true
+    }
+}
