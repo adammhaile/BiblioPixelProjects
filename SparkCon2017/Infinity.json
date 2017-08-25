@@ -98,12 +98,19 @@
         "port": 5000
     },
     "driver": {
-        "typename": "simpixel",
-        "num": 120
+        "typename": "spi",
+        "ledtype": "SK9822",
+        "gamma": "APA102",
+        "c_order": "BGR",
+        "num": 120,
+        "interface": "PERIPHERY",
+        "spi_speed": 24
     },
     "layout": {
         "typename": "circle",
-        "brightness": 255,
-        "pixels_per": [120]
+        "brightness": 64,
+        "pixels_per": [120],
+        "rotation": 180,
+        "reverse_angle": true
     }
 }
