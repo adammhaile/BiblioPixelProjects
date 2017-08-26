@@ -39,7 +39,7 @@
             },
             {
                 "animation": {
-                    "typename": "matrix_test"
+                    "typename": "matrix_calibration"
                 }
             },
             {
