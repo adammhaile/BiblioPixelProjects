@@ -9,7 +9,8 @@
         "typename": "matrix",
         "width": 32,
         "height": 32,
-        "serpentine": false
+        "serpentine": false,
+        "threadedUpdate": true
     },
     "animation": {
         "title": "1K Adam",
