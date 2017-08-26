@@ -76,7 +76,7 @@
                     "angle": 3
                 },
                 "run": {
-                    "fps": 30,
+                    "fps": 15,
                     "amt": 4
                 }
             },
@@ -94,7 +94,7 @@
                     ]
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -145,7 +145,7 @@
     "layout": {
         "typename": "circle",
         "brightness": 255,
-        "pixels_per": [1, 6, 12, 20, 24, 28, 32, 40, 44, 48],
+        "pixels_per": [48, 44, 40, 32, 28, 24, 20, 12, 6, 1],
         "threadedUpdate": true
     }
 }
