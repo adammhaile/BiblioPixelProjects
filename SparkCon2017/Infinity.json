@@ -110,7 +110,7 @@
         "typename": "circle",
         "brightness": 64,
         "pixels_per": [120],
-        "rotation": 180,
+        "ring_rotation": 180,
         "reverse_angle": true
     }
 }
