@@ -1,0 +1,105 @@
+{
+    "driver": {
+        "num": 576,
+        "typename": "spi",
+        "ledtype": "LPD8806",
+        "gamma": "LPD8806",
+        "c_order": "BRG",
+        "interface": "PERIPHERY",
+        "spi_speed": 4
+    },
+    "layout": {
+        "typename": "matrix",
+        "width": 24,
+        "height": 24
+    },
+    "animation": {
+        "title": "24x24",
+        "typename": "remote",
+        "auto_demo": {
+            "name": "Demo Mode",
+            "random": true,
+            "run": {
+                "seconds": 30
+            },
+            "data": {
+                "bgcolor": "blue"
+            }
+        },
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.MatrixRain.MatrixRain",
+                    "name": "MatrixRain"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.MatrixRain.MatrixRainBow",
+                    "name": "MatrixRainBow"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.Text.ScrollText",
+                    "name": "ScrollText",
+                    "text": "Maniacal Labs!",
+                    "color": "#f36926",
+                    "xPos": 24,
+                    "yPos": 0,
+                    "font_scale": 3
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.bloom.Bloom",
+                    "name": "Bloom"
+                },
+                "run": {
+                    "fps": 15,
+                    "amt": 4
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.TicTacToe.TicTacToe",
+                    "name": "TicTacToe"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.perlin_simplex.PerlinSimplex",
+                    "name": "PerlinSimplex"
+                },
+                "run": {
+                    "fps": 15
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.pinwheel.Pinwheel",
+                    "name": "Pinwheel"
+                },
+                "run": {
+                    "fps": 15
+                }
+            }
+        ],
+        "default": null,
+        "bgcolor": "black",
+        "external_access": true,
+        "port": 5000
+    }
+}
