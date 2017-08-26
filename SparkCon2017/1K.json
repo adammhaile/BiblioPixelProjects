@@ -8,7 +8,8 @@
     "layout": {
         "typename": "matrix",
         "width": 32,
-        "height": 32
+        "height": 32,
+        "serpentine": false
     },
     "animation": {
         "title": "1K Adam",
@@ -44,10 +45,10 @@
                         "/home/pi/DisplayGraphics/32x32/RedHat.png"
                     ],
                     "pixelRate": 20,
-                    "waitFrames": 60
+                    "waitFrames": 30
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -56,7 +57,7 @@
                     "name": "AnalogClock"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -65,7 +66,7 @@
                     "name": "GameOfLife"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -74,7 +75,7 @@
                     "name": "GameOfLifeRGB"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -83,7 +84,7 @@
                     "name": "LangtonsAnt"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -92,7 +93,7 @@
                     "name": "LangtonsAntRainbow"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -111,7 +112,7 @@
                     "name": "MatrixRain"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -120,7 +121,7 @@
                     "name": "MatrixRainBow"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -129,7 +130,7 @@
                     "name": "Digital Clock"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -143,7 +144,7 @@
                     "font_scale": 4
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -152,7 +153,7 @@
                     "name": "Bloom"
                 },
                 "run": {
-                    "fps": 30,
+                    "fps": 15,
                     "amt": 4
                 }
             },
@@ -162,7 +163,7 @@
                     "name": "CirclePop"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -171,7 +172,7 @@
                     "name": "PerlinSimplex"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             },
             {
@@ -180,7 +181,7 @@
                     "name": "Pinwheel"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 15
                 }
             }
         ],
