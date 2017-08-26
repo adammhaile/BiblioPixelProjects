@@ -29,7 +29,7 @@
                     "name": "ArcClock"
                 },
                 "run": {
-                    "fps": 30
+                    "fps": 4
                 }
             },
             {
