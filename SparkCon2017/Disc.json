@@ -73,7 +73,7 @@
                 "animation": {
                     "typename": "BiblioPixelAnimations.circle.swirl.Swirl",
                     "name": "Swirl",
-                    "angle": 3
+                    "angle": 6
                 },
                 "run": {
                     "fps": 15,
@@ -144,7 +144,7 @@
     },
     "layout": {
         "typename": "circle",
-        "brightness": 255,
+        "brightness": 128,
         "pixels_per": [48, 44, 40, 32, 28, 24, 20, 12, 6, 1],
         "threadedUpdate": true
     }
