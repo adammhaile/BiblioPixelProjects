@@ -76,7 +76,7 @@
                     "angle": 6
                 },
                 "run": {
-                    "fps": 15,
+                    "fps": 12,
                     "amt": 4
                 }
             },
@@ -140,7 +140,7 @@
         "gamma": "APA102",
         "c_order": "BGR",
         "interface": "PERIPHERY",
-        "spi_speed": 24
+        "spi_speed": 16
     },
     "layout": {
         "typename": "circle",
