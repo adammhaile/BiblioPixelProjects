@@ -38,7 +38,9 @@
                 }
             },
             {
-                "animation": "matrix_test"
+                "animation": {
+                    "typename": "matrix_test"
+                }
             },
             {
                 "animation": {
