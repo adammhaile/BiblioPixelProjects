@@ -134,8 +134,13 @@
         "port": 5000
     },
     "driver": {
-        "typename": "simpixel",
-        "num": 255
+        "num": 255,
+        "typename": "spi",
+        "ledtype": "SK9822",
+        "gamma": "APA102",
+        "c_order": "BGR",
+        "interface": "PERIPHERY",
+        "spi_speed": 24
     },
     "layout": {
         "typename": "circle",
