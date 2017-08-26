@@ -36,10 +36,10 @@
                 "animation": {
                     "typename": "BiblioPixelAnimations.circle.diag.Diag",
                     "name": "Diag",
-                    "angle": 3
+                    "angle": 6
                 },
                 "run": {
-                    "fps": 30,
+                    "fps": 12,
                     "amt": 4
                 }
             },
