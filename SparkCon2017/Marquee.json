@@ -22,7 +22,7 @@
                     "xPos": 128
                 },
                 "run": {
-                    "fps": 15,
+                    "fps": 10,
                     "amt": 1
                 }
             },
@@ -32,7 +32,7 @@
                     "name": "Game Of Life"
                 },
                 "run": {
-                    "fps": 15
+                    "fps": 10
                 }
             },
             {
@@ -41,7 +41,7 @@
                     "name": "Noise"
                 },
                 "run": {
-                    "fps": 15
+                    "fps": 10
                 }
             },
             {
@@ -50,7 +50,7 @@
                     "name": "MainFrame"
                 },
                 "run": {
-                    "fps": 15
+                    "fps": 10
                 }
             },
             {
@@ -59,7 +59,7 @@
                     "name": "Bloom"
                 },
                 "run": {
-                    "fps": 15,
+                    "fps": 10,
                     "amt": 6
                 }
             },
@@ -70,7 +70,7 @@
                     "colors": ["red"]
                 },
                 "run": {
-                    "fps": 15
+                    "fps": 10
                 }
             }
         ],
