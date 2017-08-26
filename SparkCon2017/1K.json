@@ -1,7 +1,9 @@
 {
     "driver": {
         "num": 1024,
-        "typename": "simpixel"
+        "typename": "serial",
+        "ledtype": "GENERIC",
+        "hardwareID": "16C0:0483"
     },
     "layout": {
         "typename": "matrix",
