@@ -39,11 +39,6 @@
             },
             {
                 "animation": {
-                    "typename": "matrix_calibration"
-                }
-            },
-            {
-                "animation": {
                     "typename": "BiblioPixelAnimations.matrix.MatrixRain.MatrixRainBow",
                     "name": "MatrixRainBow"
                 },
