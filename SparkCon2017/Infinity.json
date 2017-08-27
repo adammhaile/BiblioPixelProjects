@@ -25,15 +25,6 @@
             },
             {
                 "animation": {
-                    "typename": "BiblioPixelAnimations.circle.ring_clock.RingClock",
-                    "name": "Clock"
-                },
-                "run": {
-                    "fps": 2
-                }
-            },
-            {
-                "animation": {
                     "typename": "BiblioPixelAnimations.circle.bloom.CircleBloom",
                     "name": "CircleBloom"
                 },
