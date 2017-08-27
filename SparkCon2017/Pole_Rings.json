@@ -19,7 +19,7 @@
         "external_access": true,
         "port": 5000,
         "title": "Pole",
-        "bgcolor": "linear-gradient(to bottom, #f36926, black)",
+        "bgcolor": "black",
         "default": null,
         "auto_demo": {
                 "name": "Demo Mode",
