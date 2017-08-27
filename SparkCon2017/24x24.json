@@ -12,7 +12,8 @@
         "typename": "matrix",
         "width": 24,
         "height": 24,
-        "vert_flip": true
+        "vert_flip": true,
+        "brightness": 128
     },
     "animation": {
         "title": "24x24",
