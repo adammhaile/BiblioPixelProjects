@@ -4,9 +4,9 @@
         "ledtype": "LPD8806",
         "num": 360,
         "dev": "/dev/spidev0.0",
-        "interface": "FILE",
-        "spi_speed": 1,
-        "c_order": "GRB"
+        "interface": "PERIPHERY",
+        "spi_speed": 4,
+        "c_order": "BRG"
     },
     "layout": {
         "typename": "circle",
@@ -18,7 +18,7 @@
         "typename": "remote",
         "external_access": true,
         "port": 5000,
-        "title": "PiPixel LPD8806Tower Remote",
+        "title": "Pole",
         "bgcolor": "linear-gradient(to bottom, #f36926, black)",
         "default": null,
         "auto_demo": {
