@@ -1,0 +1,97 @@
+{
+    "driver": {
+        "typename": "spi",
+        "ledtype": "LPD8806",
+        "num": 360,
+        "dev": "/dev/spidev0.0",
+        "interface": "FILE",
+        "spi_speed": 1,
+        "c_order": "GRB"
+    },
+    "layout": {
+        "typename": "circle",
+        "reverse_angle": true,
+        "pixels_per": [8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7,8,7],
+		"brightness": 128
+    },
+    "animation": {
+        "typename": "remote",
+        "external_access": true,
+        "port": 5000,
+        "title": "PiPixel LPD8806Tower Remote",
+        "bgcolor": "linear-gradient(to bottom, #f36926, black)",
+        "default": null,
+        "auto_demo": {
+                "name": "Demo Mode",
+                "random": true,
+                "run": {
+                    "seconds": 30
+                },
+                "data": {
+                    "bgcolor": "blue"
+                }
+            },
+        "animations": [
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.pinwheel.PinWheel",
+                    "name": "Pinwheel"
+                },
+                "run": {
+                    "amt": 6,
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.swirl.Swirl",
+                    "name": "Swirl"
+                },
+                "run": {
+                    "amt": 6,
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.hyperspace.Hyperspace",
+                    "name": "Hyperspace"
+                },
+                "run": {
+                    "amt": 1,
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.hyperspace.HyperspaceRainbow",
+                    "name": "Hyperspace Rainbow"
+                },
+                "run": {
+                    "amt": 1,
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.bloom.CircleBloom",
+                    "name": "Circle Bloom"
+                },
+                "run": {
+                    "amt": 6,
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
+                    "typename": "BiblioPixelAnimations.circle.diag.Diag",
+                    "name": "Diag"
+                },
+                "run": {
+                    "amt": 1,
+                    "fps": 30
+                }
+            }
+        ]
+    }
+}
