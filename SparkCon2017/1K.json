@@ -63,6 +63,15 @@
             },
             {
                 "animation": {
+                    "typename": "BiblioPixelAnimations.matrix.MathFunc.MathFunc",
+                    "name": "MathFunc"
+                },
+                "run": {
+                    "fps": 30
+                }
+            },
+            {
+                "animation": {
                     "typename": "BiblioPixelAnimations.matrix.GameOfLife.GameOfLife",
                     "name": "GameOfLife"
                 },
